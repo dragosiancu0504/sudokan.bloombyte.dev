@@ -1629,7 +1629,7 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 **Where to Find the Latest Version**:
 - In-app: Settings → Privacy Policy (opens this document)
-- Website: bloombyte.dev/privacy (if published online)
+- Website: sudokan.bloombyte.dev/privacy/
 - App Store listings: Link in app description
 
 ---
