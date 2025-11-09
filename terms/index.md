@@ -370,7 +370,7 @@ We appreciate responsible reporting and will investigate promptly.
 
 **Privacy Policy Location**:
 - In-app: Settings → Privacy Policy
-- Online: bloombyte.dev/privacy (if published)
+- Online: sudokan.bloombyte.dev/privacy/
 
 **By using Sudokan, you acknowledge that you have read and understood the Privacy Policy.**
 
@@ -1012,7 +1012,7 @@ This cap applies to:
 
 **Current Terms are available**:
 - In-app: Settings → Terms and Conditions
-- Online: bloombyte.dev/terms (if published)
+- Online: sudokan.bloombyte.dev/terms/
 
 **We recommend reviewing** these Terms periodically.
 
