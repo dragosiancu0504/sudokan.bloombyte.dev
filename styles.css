@@ -206,10 +206,16 @@ body {
 }
 
 .policy-arrow {
-    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     opacity: 0.6;
     transition: all 0.3s ease;
     font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-left: auto;
 }
 
 .policy-card:hover .policy-arrow {
@@ -403,6 +409,7 @@ body {
     .policy-arrow {
         margin-left: 0;
         margin-top: 1rem;
+        align-self: center;
     }
     
     .game-info {
