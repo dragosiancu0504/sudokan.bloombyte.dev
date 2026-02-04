@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9LAX3Z72SF.dev.bloombyte.sudokan",
+        "paths": [
+          "/c/*",
+          "/daily",
+          "/challenge/*"
+        ]
+      }
+    ]
+  }
+}
