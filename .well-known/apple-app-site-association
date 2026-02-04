@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "9LAX3Z72SF.com.bloombyte.sudokan",
+        "appID": "9LAX3Z72SF.dev.bloombyte.sudokan",
         "paths": [
           "/c/*",
           "/daily",
@@ -15,7 +15,7 @@
   },
   "webcredentials": {
     "apps": [
-      "9LAX3Z72SF.com.bloombyte.sudokan"
+      "9LAX3Z72SF.dev.bloombyte.sudokan"
     ]
   }
 }
