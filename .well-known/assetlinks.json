@@ -5,10 +5,9 @@
       "namespace": "android_app",
       "package_name": "dev.bloombyte.sudokan",
       "sha256_cert_fingerprints": [
-        "YOUR_SHA256_FINGERPRINT_HERE"
+        "2F:51:81:02:AE:EF:86:C4:0D:E3:9F:E7:28:9E:87:72:DE:A6:FE:F7:2A:09:82:99:14:5E:5C:0E:FB:BC:04:E2"
       ]
     }
   }
 ]
-//Note: Get your SHA256 fingerprint with: keytool -list -v -keystore your-release-key.keystore -alias your-alias
 
