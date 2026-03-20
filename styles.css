@@ -83,9 +83,8 @@ body {
     padding: 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    gap: 1.5rem 4rem;
-    align-items: start;
+    gap: 4rem;
+    align-items: center;
     position: relative;
     z-index: 2;
 }
@@ -93,9 +92,6 @@ body {
 .hero-content {
     animation: fadeInUp 1s ease-out;
     text-align: center;
-    grid-column: 1;
-    grid-row: 1 / -1;
-    align-self: center;
 }
 
 .game-logo {
@@ -253,9 +249,11 @@ body {
 
 /* Store Badges */
 .store-badges {
+    position: relative;
+    z-index: 5;
     text-align: center;
     animation: fadeInUp 1s ease-out 0.3s both;
-    align-self: end;
+    margin-bottom: 1rem;
 }
 
 .store-heading {
@@ -350,15 +348,15 @@ body {
 /* Floating Elements - Sudoku Numbers */
 .hero-visual {
     position: relative;
-    height: 400px;
-    grid-column: 2;
-    grid-row: 2;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 .floating-elements {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    flex: 1;
+    min-height: 280px;
 }
 
 .float-item {
@@ -480,26 +478,17 @@ body {
 @media (max-width: 768px) {
     .hero-container {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
         text-align: center;
-        gap: 1.5rem;
-    }
-
-    .hero-content {
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .store-badges {
-        grid-column: 1;
-        grid-row: 1;
-        padding-top: 0.5rem;
+        gap: 2rem;
     }
 
     .hero-visual {
-        grid-column: 1;
-        grid-row: 2;
-        height: 250px;
+        order: -1;
+        min-height: auto;
+    }
+
+    .floating-elements {
+        min-height: 200px;
     }
     
     .hero-title {
@@ -577,8 +566,8 @@ body {
         max-width: 120px;
     }
 
-    .hero-visual {
-        height: 200px;
+    .floating-elements {
+        min-height: 160px;
     }
     
     .policy-card {
